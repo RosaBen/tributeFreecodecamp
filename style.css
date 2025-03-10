@@ -1,0 +1,35 @@
+:root{
+--bodybg: #ffffff;
+--mainbg:#eeeeee;
+--fontsecond: hsl(0, 2%, 24%);
+}
+
+body{
+background-color: var(--bodybg);
+margin: 2rem 1rem;
+}
+
+main{
+background-color: var(--mainbg);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#img-div{
+    background-color: var(--bodybg);
+    padding: 0.5rem 0;
+}
+
+#img-caption{
+    color: var(--fontsecond);
+    font-size: 0.7rem;
+    padding-top: 0.5rem;
+}
+
+#tribute-info{
+    padding: 1rem 2rem 1rem 3rem;
+}
