@@ -49,3 +49,28 @@ img{
     margin: 1rem auto;
     padding-bottom: 1rem;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1392px){
+
+    #tribute-info{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    
+        #tribute-info{
+            width: 70%;
+        }
+}
+@media screen and (min-width: 375px) and (max-width: 768px){
+    
+        #tribute-info{
+            width: 80%;
+        }
+
+        #img-caption{
+            margin: 1rem 1rem;
+            font-size: 1rem;
+        }
+}
